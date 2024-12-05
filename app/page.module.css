@@ -8,6 +8,7 @@
 .container {
   width: 90%;
   max-width: 1050px;
+  min-width: 350px;
   background-color: #fffff5;
   border-radius: 35px;
   box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.02);

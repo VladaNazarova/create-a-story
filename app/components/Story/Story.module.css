@@ -1,22 +1,18 @@
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 3rem;
   margin-top: 3rem;
   padding: 1rem;
+  min-width: 300px;
 }
 
 .picture {
-  border-radius: 30px;
+  border-radius: 15px;
   box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.04);
-  border: 10px solid #ff9eaa;
+  border: 7px solid #ff9eaa;
   float: right;
   width: 100%;
   max-width: 350px;
   height: auto;
-  margin: 10px;
+  margin: 1rem;
 }
 
 .text {
@@ -29,8 +25,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  padding: 2rem;
+  gap: 2rem;
+  padding: 3rem;
 }
 
 .text h2 {
@@ -43,9 +39,9 @@
 
 .text p {
   font-family: "Kulim Park", sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   color: #3aa6b9;
-  padding: 2rem;
+  margin-top: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -58,7 +54,6 @@
   }
   .text {
     gap: 2rem;
-    padding: 1.5rem;
   }
   .text h2 {
     font-size: 1.8rem;
@@ -74,10 +69,11 @@
     margin-top: 1.5rem;
   }
   .picture {
-    max-width: 250px;
+    max-width: 230px;
+    margin: 10px;
   }
   .text {
-    gap: 1.5rem;
+    gap: 0rem;
     padding: 1rem;
   }
   .text h2 {
