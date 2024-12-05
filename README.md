@@ -9,12 +9,12 @@ A web application that generates personalized short stories based on user prompt
 
 # Technologies Used
 ## Frontend:
-React.js: For building the interactive UI.
-Next.js: For server-side rendering and routing.
-CSS (with custom classes and flexbox for layout): For styling the app, ensuring responsiveness, and a smooth user experience.
+- React.js: For building the interactive UI.
+- Next.js: For server-side rendering and routing.
+- CSS (with custom classes and flexbox for layout): For styling the app, ensuring responsiveness, and a smooth user experience.
 ## Backend:
-OpenAI API (GPT-3.5 and DALL·E): Used for generating the story and images.
-Next.js API Routes: Used to handle server-side requests (story generation and image creation).
+- OpenAI API (GPT-3.5 and DALL·E): Used for generating the story and images.
+- Next.js API Routes: Used to handle server-side requests (story generation and image creation).
 
 # Setup Instructions
 To run the project locally:
