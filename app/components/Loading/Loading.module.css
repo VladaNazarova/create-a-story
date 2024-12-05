@@ -1,0 +1,21 @@
+.loading {
+  color: #ff9eaa;
+  font-family: "Luckiest Guy";
+  font-size: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .loading {
+    font-size: 1.8rem; 
+    margin-top: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .loading {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+}
